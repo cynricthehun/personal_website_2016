@@ -17,13 +17,13 @@ Once more into the fray. Preparing myself to avoid unemployment!
 ## Experience page
 1. eight columns left side for experience section
 
-    Content Type | Field | Field Type | Required | Additional Functionality | Questions
+    Content Type | Field Name | Field Type | Required | Additional Functionality | Questions
     --- | --- | --- | --- | --- | --- 
     Job Experience |
      | Title | title | yes
-     | Description | textarea
-     | Position 
-     | Position Responsibilities
+     | Description | textarea | yes
+     | Position Title | textfield | yes
+     | Position Responsibilities description | textarea | yes
 
 2. four columns for navigating experience
 
@@ -31,6 +31,18 @@ Once more into the fray. Preparing myself to avoid unemployment!
 1. eight column left side for articles
 2. four column right side for navigating articles
 3. fontawesome social media links sitting above navigational links
+
+## Contact Me page
+1. webform
+
+    Content Type | Field Name | Field Type | Required | Additional Functionality | Questions
+    --- | --- | --- | --- | --- | --- 
+    Contact Form |
+     | Title | title | yes
+     | Contacts Name | textfield | yes
+     | Return Email Address | textfield | yes
+     | Subject | textfield | yes
+     | Body | textarea | yes
 
 ## Footer
 1. social media links
