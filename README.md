@@ -45,4 +45,5 @@ Once more into the fray. Preparing myself to avoid unemployment!
      | Body | textarea | yes
 
 ## Footer
-1. social media links
+1. Six column wide social media links section
+2. six column wide skills section
