@@ -50,3 +50,18 @@ Once more into the fray. Preparing myself to avoid unemployment!
 
 ## Modules
 Webform 7.x-4.14
+
+## Database Structure
+Table Name
+
+    Column Name | Column Name | Column Name 
+    --- | --- | --- 
+    Data | Data | Data
+    
+## Work distribution
+    Work | Who | Done 
+    --- | --- | --- 
+    Drupal Contact Webform | Joey | ---
+    Drupal Job Experience Content Type | Joey | ---
+    Drupal Job Experience Content View | Joey | ---
+    Drupal Basic Page Creation | Joey | ---
