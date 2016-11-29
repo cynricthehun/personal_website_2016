@@ -56,11 +56,14 @@
 </nav>
 
 <section id="wrap">
-  <div id="main" class="container">
-    <div class="col-md-12">
-      <?php print render($page['content']); ?>
-    </div>
+  <div class="col-md-12">
+    <?php
+      $body = field_get_items('node',$node, 'body');
+      print $body[0]['value'];
+    ?>
+    <?php print render($page['field_basic_page_image']); ?>
   </div>
+  featurette-image img-circle img-responsive pull-right
 </section>
 
 <footer class="footer">

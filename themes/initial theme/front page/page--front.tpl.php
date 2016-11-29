@@ -56,10 +56,23 @@
   </div><!-- container -->
 </nav>
 
-<div class="row">
-  <?php print render($page['content']); ?>
-</div>
+<section id="wrap">
+  <div class="col-md-6 img-circle img-responsive">
+    <?php
+     $class[] = 'featurette-image img-circle img-responsive pull-right';
+    $page_image = render(field_view_field('node', $node, 'field_basic_page_image', array('label'=>'hidden'), array('class' => $class)));
+    print $page_image;
+    ?>
+  </div>
+  <div class="col-md-6">
+    <?php
+    $page_body = $node->body['und'][0]['value'];
+    print $page_body;
+    ?>
+  </div>
+  <pre><?php print_r($node); ?></pre>
+</section>
 
-<footer class="footer container">
+<footer class="footer">
   <?php print render($page['footer']); ?>
 </footer>
